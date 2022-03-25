@@ -1,0 +1,85 @@
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+body{
+	font-family: Roboto;
+	color: #F5F5F5;
+}
+.wrapper {
+}
+.header {
+	width: 1440px;
+	height: 800px;
+	background-image: url("/img/dog1.jpg");
+	margin: 0 auto;
+	position: relative;
+}
+.main {
+	background-color: #F5F5F5;
+	
+}
+.who-we-are {
+}
+.who-we-are__container{
+	min-width: 1020px;
+	min-height: 700px;
+	background-color: #5D62B5;
+	border-radius: 40px;
+	position: absolute;
+	top:720px;
+	left: 442px;
+	margin: 0 auto;
+
+}
+.who-we-are__dotted {
+	position: absolute;
+	top: -109px;
+	left: 895px;
+}
+.who-we-are__content{
+	padding: 103px 0 0 92px;
+}
+.who-we-are__label {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 2;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	text-align: left;
+	margin-bottom: 33px;
+	position: relative;
+	padding: 0 0 0 32px;
+}
+.who-we-are__label::before{
+	content: "";
+	background: url(/img/icon1.svg) no-repeat;
+	width: 28px;
+	height: 27px;
+	position: absolute;
+	top: -2px;
+	left: 0;
+	z-index: 10;
+}
+
+
+.who-we-are__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 1.16;
+	color: #fff;
+	max-width: 583px;
+	margin-bottom: 33px;
+}
+.who-we-are__text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	max-width: 846px;
+}
+.who-we-are__image {
+	border-radius: 40px;
+	position: absolute;
+	left: 87px;
+	top: 400px;
+}
